@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Hernández - Creative Artworker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌻</text></svg>">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Valeria</a>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <nav id="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">Portafolio</a>
+            <a href="#servicios">Servicios</a>
+            <!-- <a href="#">Acerca de</a> -->
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="assets/vale.png" alt="Valeria Hernández">
+        </div>
+        <div class="home-content">
+            <h1>Hola, soy <span>Valeria</span></h1>
+            <h3 class="typing-text">Soy <span></span></h3>
+            <p>Diseño y desarrollo para transformar ideas en resultados y crear experiencias digitales que conecten con los usuarios.
+            <!-- </p> -->
+            <!-- <br> -->
+            <!-- <p> -->
+            Busco oportunidades para aportar mis habilidades, crecer profesionalmente y aprender constantemente mientras contribuyo al éxito de proyectos innovadores.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/valeria-hernandez-97b145182/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <!-- <a href="https://github.com/pablocelva" target="_blank"><i class="fa-brands fa-github"></i></a> -->
+                <!-- <a href="https://www.behance.net/pablolambert1" target="_blank"><i class="fa-brands fa-behance"></i></a> -->
+                <a href="https://www.instagram.com/inpar_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCykGU3SrUeKIOTXtNjiXNmw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://open.spotify.com/artist/3vq0uaJGkWDkIP7lo1A6k8" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://soundcloud.com/inpar" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://inpar.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+                <!-- <a href="#" onclick="copiarCorreo()"><i class="fa-brands fa-google"></i></a> -->
+            </div>
+            <a href="#contact" class="btn">Contacto</a>
+            <!-- <button class="btn" onclick="copiarCorreo()">Contacto</button> -->
+        </section>
+
+        <section class="services" id="servicios">
+            <div class="content">
+                <div class="title"><span>Servicios</span></div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="topic">Creative Artwork</div>
+                        <p>Me enfoco en diseñar interfaces intuitivas y experiencias que conecten con las personas de manera natural.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa fa-paint-brush"></i>
+                        </div>
+                        <div class="topic">Diseño Gráfico, Web y UI/UX</div>
+                        <p>Me enfoco en diseñar interfaces intuitivas y experiencias que conecten con las personas de manera natural.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="topic">Videos 3D</div>
+                        <p>Transformo ideas en interfaces interactivas, asegurándome de que cada detalle esté optimizado para el usuario.</p>
+                    </div>
+                    <!-- <br> -->
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="topic">Modelado 3D</div>
+                        <p>Doy vida a las funcionalidades que no se ven, creando sistemas sólidos y eficientes para proyectos web y apps.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="topic">Desarrollo Videojuegos</div>
+                        <p>Diseño mundos interactivos y narrativas inmersivas que inviten a los jugadores a explorar y disfrutar.</p>    
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="topic">Composición Musical</div>
+                        <p>Compongo música original que puede acompañar tus proyectos y transmitir emociones auténticas.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title"><span>Contacto</span></div>
+                <div class="form">
+                    <form  id="contactform" action="https://formspree.io/f/xdoqwpaz" method="POST">
+                        <div class="input-group">
+                            <input id="name" name="name" type="text" placeholder="" required>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" name="_replyto" type="email" placeholder="" required>
+                            <label>Email</label>
+                        </div>
+                        <!-- <div class="input-group">
+                            <input type="text" placeholder="" required>
+                            <label>Telefono</label>
+                        </div> -->
+                        <div class="input-group">
+                            <textarea id="comments" name="message" placeholder="" required></textarea>
+                            <label class="label-mensaje">Mensaje</label>
+                            <button class="btn" type="submit">Enviar</button>
+                            <input type="hidden" name="_next" value="//peek.solutions/confirmation.html" />
+                            <input type="text" name="_gotcha" style="display:none" />  
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="text">
+                <div class="info">
+                    <!-- <p>Creo en el poder de las ideas y en el proceso de convertirlas en algo valioso.</p> -->
+                    <p>Si quieres colaborar o necesitas ayuda, aquí estoy para trabajar contigo.</p>
+                    <!-- <br> -->
+                    <!-- <p>© 2024 Pablo Lambert. Todos los derechos reservados.</p> -->
+                    <p>Encuéntrame en redes sociales para ver más de mi trabajo.</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/valeria-hernandez-97b145182/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <!-- <a href="https://github.com/pablocelva" target="_blank"><i class="fa-brands fa-github"></i></a> -->
+                        <!-- <a href="https://www.behance.net/pablolambert1" target="_blank"><i class="fa-brands fa-behance"></i></a> -->
+                        <a href="https://www.instagram.com/inpar_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCykGU3SrUeKIOTXtNjiXNmw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/artist/3vq0uaJGkWDkIP7lo1A6k8" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://soundcloud.com/inpar" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+                        <a href="https://inpar.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+                        <!-- <a href="#" onclick="copiarCorreo()"><i class="fa-brands fa-google"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <span>Sitio desarrollado por <a href="https://pablocelva.github.io/" target="_blank">Pablo Lambert</a></span>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -8,10 +8,8 @@ Este proyecto es mi espacio personal donde presento mi trabajo como desarrollado
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 Este portafolio fue creado con **HTML**, **CSS** y **JavaScript**. Además, incluye una muestra de mis proyectos realizados con:  
-
-- **Frontend:** React, Vue.js  
+ 
 - **3D y Juegos:** Three.js, Phaser.js  
-- **Backend:** Python (Streamlit, FastAPI)  
 - **Diseño UX/UI:** Figma, Wireframes, Prototipado  
 
 ---
