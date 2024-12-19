@@ -61,6 +61,13 @@ header {
     cursor: pointer;
     text-decoration: none;
     transition: transform 0.5s ease;
+
+    transition: opacity 0.5s ease; /* Transición suave */
+    opacity: 1; /* Totalmente visible por defecto */
+}
+
+.logo.hidden {
+    opacity: 0; /* Oculto */
 }
 
 .logo:hover {
@@ -70,6 +77,18 @@ header {
 .menu-icon {
     display: none;
     font-size: 3rem;
+    cursor: pointer;
+    transition: opacity 0.5s ease; /* Transición suave */
+    opacity: 1; /* Totalmente visible por defecto */
+}
+
+.menu-icon.hidden {
+    opacity: 0; /* Oculto */
+}
+
+#menu-icon-toggle {
+    padding-left: 4.5em;
+    padding-top: 0.4em;
     cursor: pointer;
 }
 
@@ -223,7 +242,7 @@ span {
 }
 
 .typing-text span::before {
-    content: "Software Developer";
+    content: "Creative Artworker";
     color: var(--primary-color);
     animation: words 10s infinite;
 }
